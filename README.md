@@ -1,6 +1,10 @@
-# Data Processing Project
+# Fithub Task Assigment
 
 This project contains scripts for data extraction, transformation, and loading (ETL). It can be run in two different ways, either using a Jupyter notebook for debugging or a Python script for automated execution.
+
+Task Assigment PDF : 
+
+[DE Test Assigment](https://docs.google.com/document/d/105YAr8idwVv-VadDH8Q6qis48So0y9790t5JYCewapc/edit)
 
 ## Getting Started
 
@@ -47,3 +51,5 @@ This method will automatically execute the program using the appropriate Docker 
 ## Additional Information
 
 For more details on the Docker commands used to run `scripts/main.py`, please refer to the `run_job.sh` script.
+
+for a document manual deeper explanation goes to this link : [Google Docs](https://docs.google.com/document/d/1IUDtgsw7sQ8tNkZ165cAWprMvJPHv0hapoGpincXjRw/edit?addon_store)
