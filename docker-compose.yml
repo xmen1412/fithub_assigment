@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pyspark:
+    build: .
+    ports:
+      - "8888:8888"  # Jupyter Notebook
+      - "4040:4040"  # Spark UI
+    volumes:
+      - ./data:/home/jovyan/data
+      - ./notebooks:/home/jovyan/notebooks
+      - ./scripts:/home/jovyan/scripts
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: start.sh jupyter lab --LabApp.token=''
